@@ -16,7 +16,7 @@ function mincost(arr)
 		while (i<arr.length && arr[i]<sum){
 			i++;
 		}  
-		arr.splice(i,0,arr)
+		arr.splice(i,0,sum)
 		
 	}
 	return cost;
